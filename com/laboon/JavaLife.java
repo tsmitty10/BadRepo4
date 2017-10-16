@@ -1,7 +1,6 @@
 package com.laboon;
 
 public class JavaLife {
-
     /**
      * This is the main part.
      *
@@ -11,7 +10,7 @@ public class JavaLife {
      * @param maxIterations Maximum number of iterations
      */
 	
-    public JavaLife(int size, int seed, int percent, int maxIterations) {
+  public JavaLife(int size, int seed, int percent, int maxIterations) {
 	World w = new World(size, seed, percent);
 	System.out.println("Initial Configuration:");
 	System.out.println(w.toString());
